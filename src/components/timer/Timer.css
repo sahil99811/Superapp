@@ -1,0 +1,9 @@
+.countdown-container {
+    height: 100%;
+    width: 20%;
+    background-color: rgba(25, 30, 57, 1);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

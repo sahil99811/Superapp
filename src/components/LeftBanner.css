@@ -1,0 +1,15 @@
+.left-banner {
+    width: 50%;
+    background-image: url("../assets/login_image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+ .left-banner>h1 {
+
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    font-size: 35px;
+    margin-left: 16px;
+  }

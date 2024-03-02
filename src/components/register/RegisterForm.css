@@ -1,0 +1,51 @@
+.register-container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto auto;
+}
+.upper-part{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+}
+.upper-part>h1{
+    color:#72DB73 ;
+    font-family:single day,cursive;
+    font-weight: 400;
+    font-size: 50px;
+
+}
+.upper-part>p{
+    font-size:20px ;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 15px;
+}
+input{
+    width: full;
+    height: 35px;
+    background-color: #292929;
+    padding: 5px;
+    border: none;
+    font-weight: 400;
+}
+.checkbox{
+    display: flex;
+    gap: 4px;
+    align-items: center
+}
+.term-condition{
+    margin-top: 3px;
+    gap: 4px;
+}
+.term-condition>p{
+   font-size: 14px;
+   font-weight: 500;
+   font-family: Roboto;
+   color:#7C7C7C ;
+}
