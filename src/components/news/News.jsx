@@ -1,7 +1,7 @@
 import  { useState, useEffect } from "react";
 import "./News.css";
 
-const API_KEY = "d2477e6897784d4fa5a32e9acba94f49";
+
 const DEFAULT_IMAGE ="https://static.foxnews.com/foxnews.com/content/uploads/2023/09/GettyImages-1662782212.jpg";
 
 const News = () => {
@@ -20,7 +20,6 @@ const News = () => {
      
       const articleNo = Math.floor(Math.random() *data.news.length);
       const selectedArticle = data.news[articleNo];
-      console.log(selectedArticle)
       const formattedDate = formatDate(selectedArticle.publish_date);
       selectedArticle.publishedAt = formattedDate;
       setNews(selectedArticle);
