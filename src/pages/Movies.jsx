@@ -99,7 +99,7 @@ export default function Movies() {
           })
          }
         </div>
-        <button style={{position:"absolute",bottom:"15px",right:"15px"} } onClick={handleClick}>Next Page</button>
+        <button style={{position:"absolute",bottom:"15px",right:"15px",background:"#148A08",padding:"0.7vh 1.4vw",border:"none",fontFamily:"dm sans",fontWeight:"500",fontSize:"1rem",letterSpacing:"2%",textAlign:"center",borderRadius:"15px",cursor:"pointer"} } onClick={handleClick} >Next Page</button>
       </div>
     </div>
   );

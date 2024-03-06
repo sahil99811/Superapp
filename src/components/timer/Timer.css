@@ -1,9 +1,83 @@
-.countdown-container {
+
+.container-timer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+ .timer {
     height: 100%;
     width: 20%;
-    background-color: rgba(25, 30, 57, 1);
+    background-color: #191E39;
     border-radius: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    box-shadow: 0px 6px 26px 0px rgba(0, 0, 0, 0.61) inset;
+    box-shadow: -3px -7.000000476837158px 16px 0px rgba(95, 88, 88, 0.23);
+    position: relative;
+   }
+.timer-countdown{
+   Font-family: Roboto;
+   font-size: 1.25rem;
+   font-weight: 600;
+   letter-spacing: 0.04em;
+   text-align: center;
 }
+ 
+ .time-setter{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   
+   height: 100%;
+ }
+ .container-input{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    height: 65%;
+ }
+ .input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    font-family: Roboto;
+    font-size: 1.05rem;
+    font-weight: 400; 
+    color: #949494;
+ }
+ img{
+   
+    cursor: pointer;
+ }
+ 
+ h3{
+    color:#949494 ;
+    font-family: Roboto;
+    font-weight: 400;
+ }
+ .separation{
+   font-size: 2rem;
+    position: relative;
+    top: 9%;
+ }
+ input>p{
+    color:#FFFFFF;
+    font-weight: 300;
+    font-family: Roboto;
+ }
+ .time-setter>button{
+    background-color: #FF6A6A;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    font-family: Roboto;
+    font-size: 1.1rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 2s
+ }
