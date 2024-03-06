@@ -19,11 +19,12 @@ const News = () => {
       console.log(data)
       const articleNo = Math.floor(Math.random() * data.articles.length);
       const selectedArticle = data.articles[articleNo];
+      console.log(selectedArticle)
       const formattedDate = formatDate(selectedArticle.publishedAt);
       selectedArticle.publishedAt = formattedDate;
       setNews(selectedArticle);
     } catch (error) {
-      console.error("Error fetching news:", error);
+      console.error("Error fetching news:",error);
     }
   };
 

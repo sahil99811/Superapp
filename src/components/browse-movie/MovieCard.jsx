@@ -1,4 +1,4 @@
-import React from "react";
+
 import action from '../../assets/action.png'
 import PropTypes from 'prop-types';
 
@@ -40,7 +40,6 @@ export default function MovieCard(item) {
 
   );
 }
-
 MovieCard.propTypes = {
   item: PropTypes.any.isRequired,
 };
