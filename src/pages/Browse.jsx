@@ -14,8 +14,8 @@ function Browse() {
       <p style={{textAlign:"left",font:"roboto",fontWeight:"600",fontSize:"1.3rem"}}>Entertainment according to your choice</p>
       <div style={{height:"70vh",overflowY:"scroll"}}>
       {
-        data.map((item,index)=>{
-          return <MovieCard key={index} data={item}></MovieCard>
+        data.map((category,index)=>{
+          return <MovieCard key={index} category={category}></MovieCard>
         })
       }
       </div>
